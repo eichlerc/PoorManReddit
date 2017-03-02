@@ -12,10 +12,17 @@ function(goodness){
     var score = redditArray[i].data.score;
 
     $('section').append(
-        '<div><a href = "'  + permalink + '"> <h2>' + '<strong>Title:</strong> ' + title + '<br>' + '<strong>Author: </strong>' + author + '<br>' + '<strong>Score: </strong>' + score +
-        '</h2><img src="'
+        '<a href = "'
+        + permalink +
+        '"><div><h2>Title: </h2><p> '
+        + title +
+        '</p><br><h2>Author: </h2><p>'
+        + author +
+        '</p><br><h2>Score: </h2><p> '
+         + score +
+        '</p><img src="'
         + thumbnail +
-        '"/></a></div>'
+        '"/></div></a>'
       );
 
 }
