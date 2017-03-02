@@ -2,12 +2,20 @@ div {
   border: 1px solid black;
   margin: 20px;
   padding: 40px;
+  position: relative;
+  min-height: 100px;
 }
 
 h2 {
-  color: pink;
+  color: black;
 }
 
-/* img {
+ img {
 float: right;
-} */
+position: absolute;
+right: 5px;
+margin-top: 80px;
+top: 5px;
+
+
+}
