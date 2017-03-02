@@ -8,6 +8,8 @@ div {
 
 h2 {
   color: black;
+  font-weight: lighter;
+  width: 70%;
 }
 
  img {
@@ -17,6 +19,7 @@ right: 5px;
 margin-top: 30px;
 top: 5px;
 margin-right: 20px;
+
 
 
 }
